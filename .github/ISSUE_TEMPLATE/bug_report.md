@@ -1,43 +1,32 @@
 ---
 name: Bug report
-about: Create a report to help us improve
+about: Create a bug report
+title: ''
+labels: bug, needs triage
+assignees: ''
 
 ---
 
-Thanks for stopping by to let us know something could be better!
+**Description:**
+A clear and concise description of what the bug is.
 
-**PLEASE READ**: If you have a support contract with Google, please create an issue in the [support console](https://cloud.google.com/support/) instead of filing on GitHub. This will ensure a timely response.
+**Task version:**
+Specify the task version
 
-Please run down the following list and make sure you've tried the usual "quick fixes":
+**Platform:**
+- [ ] Ubuntu
+- [ ] macOS
+- [ ] Windows
 
-  - Search the issues already opened: https://github.com/googleapis/python-recommendations-ai/issues
-  - Search StackOverflow: https://stackoverflow.com/questions/tagged/google-cloud-platform+python
+**Runner type:**
+- [ ] Hosted
+- [ ] Self-hosted
 
-If you are still having issues, please be sure to include as much information as possible:
+**Repro steps:**  
+A description with steps to reproduce the issue. If your have a public example or repo to share, please provide the link.
 
-#### Environment details
+**Expected behavior:**
+A description of what you expected to happen.
 
-  - OS type and version:
-  - Python version: `python --version`
-  - pip version: `pip --version`
-  - `google-cloud-recommendations-ai` version: `pip show google-cloud-recommendations-ai`
-
-#### Steps to reproduce
-
-  1. ?
-  2. ?
-
-#### Code example
-
-```python
-# example
-```
-
-#### Stack trace
-```
-# example
-```
-
-Making sure to follow these steps will guarantee the quickest resolution possible.
-
-Thanks!
+**Actual behavior:**
+A description of what is actually happening.
